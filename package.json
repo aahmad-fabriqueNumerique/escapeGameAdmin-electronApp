@@ -1,0 +1,23 @@
+{
+  "name": "escapegameadmin",
+  "version": "1.0.0",
+  "description": "Administration Escape Game",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aahmad-fabriqueNumerique/escapeGameAdmin-electronApp.git"
+  },
+  "keywords": [],
+  "author": "Hackra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aahmad-fabriqueNumerique/escapeGameAdmin-electronApp/issues"
+  },
+  "homepage": "https://github.com/aahmad-fabriqueNumerique/escapeGameAdmin-electronApp#readme",
+  "dependencies": {
+    "electron": "^12.0.2"
+  }
+}
