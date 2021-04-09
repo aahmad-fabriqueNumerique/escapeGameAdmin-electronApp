@@ -1,0 +1,140 @@
+[
+  {
+    "jeu": "Smeagol",
+    "dateDebut": "21/01/2021",
+    "heureDebut": "10:35:05",
+    "heureFin": "11:35:05",
+    "equipes": [
+      {
+        "equipeId": 1,
+        "equipeNom": "Smeagol",
+        "score": 200,
+        "login": "test",
+        "passe": "test",
+        "joueurs": [
+          {
+            "nom": "Billon",
+            "prenom": "Pierre",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Taillou",
+            "prenom": "James"
+          },
+          {
+            "nom": "Briano",
+            "prenom": "Angela"
+          }
+        ]
+      },
+      {
+        "equipeId": 2,
+        "equipeNom": "Smeagol",
+        "score": 390,
+        "login": "test",
+        "passe": "test",
+        "joueurs": [
+          {
+            "nom": "Billon",
+            "prenom": "Pierre",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Taillou",
+            "prenom": "James"
+          },
+          {
+            "nom": "Briano",
+            "prenom": "Angela"
+          }
+        ]
+      },
+      {
+        "equipeId": 3,
+        "equipeNom": "Smeagol",
+        "score": 123,
+        "login": "test",
+        "passe": "test",
+        "joueurs": [
+          {
+            "nom": "Billon",
+            "prenom": "Pierre",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Taillou",
+            "prenom": "James"
+          },
+          {
+            "nom": "Briano",
+            "prenom": "Angela"
+          }
+        ]
+      },
+      {
+        "equipeId": 4,
+        "equipeNom": "Smeagol",
+        "score": 200,
+        "login": "test",
+        "passe": "test",
+        "joueurs": [
+          {
+            "nom": "Billon",
+            "prenom": "Pierre",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Taillou",
+            "prenom": "James",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Briano",
+            "prenom": "Angela",
+            "email": "pierre@escapegame.com"
+          }
+        ]
+      },
+      {
+        "equipeId": 5,
+        "equipeNom": "Smeagol",
+        "score": 200,
+        "login": "test",
+        "passe": "test",
+        "joueurs": [
+          {
+            "nom": "Billon",
+            "prenom": "Pierre",
+            "email": "pierre@escapegame.com"
+          },
+          {
+            "nom": "Taillou",
+            "prenom": "James"
+          },
+          {
+            "nom": "Briano",
+            "prenom": "Angela"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "message": "A sync message to main"
+  },
+  {
+    "message": "A sync message to main"
+  },
+  {
+    "message": "A sync message to main"
+  },
+  {
+    "message": "A sync message to main"
+  },
+  {
+    "message": "A sync message to main"
+  },
+  {
+    "message": "A sync message game to main"
+  }
+]
