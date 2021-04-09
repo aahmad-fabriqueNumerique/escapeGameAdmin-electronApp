@@ -1,6 +1,6 @@
-function notify() {
+function notify(title, body) {
   window.Electron.ipcRenderer.send("notify", {
-    title: "Mickaël est con",
-    body: "Ta gueule !!!",
+    title,
+    body,
   })
 }
