@@ -1,7 +1,17 @@
 {
-  "logs": [
-    {
-      "message": "salut"
-    }
-  ]
+    "users":[
+        {
+            "id":"tahar",
+            "mdp":"couscous"
+        },
+        {
+            "id":"julien",
+            "mdp":"chocolat"
+        }
+    ],
+    "logs": [
+        {
+            "message": "salut"
+        }
+    ]
 }

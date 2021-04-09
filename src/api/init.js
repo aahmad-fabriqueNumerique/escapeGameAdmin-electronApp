@@ -3,6 +3,8 @@ const fs = require("fs")
 const path = require("path")
 const util = require("util")
 
+let connecteduser = null;
+
 const init = async () => {
   const readFile = util.promisify(fs.readFile)
   const writeFile = util.promisify(fs.writeFile)
@@ -20,6 +22,30 @@ const init = async () => {
   ipcMain.on("fetch-logs", (event, arg) => {
     event.returnValue = db.logs
   })
+
+  
+    ipcMain.on('connect',(event,args)=>{
+        let user = db.users.find(user => user.id == args.id);
+        if(user && user.mdp == args.mdp){
+        //login ok
+        event.returnValue = "ok";
+        connecteduser = user.id;
+        }
+        else{
+        //login pas ok
+        event.returnValue = "not ok";
+        }
+    })
+
+    ipcMain.on('connected',(event,args)=>{
+        event.returnValue = connecteduser;
+    })
+
+    ipcMain.on('disconnect',(event,args)=>{
+        connecteduser = null;
+        event.returnValue = "disconnected";
+    })
+
 }
 
 module.exports = init
