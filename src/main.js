@@ -9,7 +9,7 @@ function createWindow () {
       preload: path.join(__dirname, 'preload.js')
     }
   })
-    win.loadFile('public/index.html')
+    win.loadFile('public/connect.html')
 
     const template = [
         {
@@ -19,21 +19,38 @@ function createWindow () {
             label: "Menu",
             submenu: [
               {
-                label: "Page 01",
+                label: "Accueil",
                 click: async () => {
                   await win.loadURL(
-                    `file://${path.join(__dirname, "../public/page01.html")}`
+                    `file://${path.join(__dirname, "../public/home.html")}`
                   )
                 },
               },
               {
-                label: "Index",
+                label: "Parties",
                 click: async () => {
                   await win.loadURL(
-                    `file://${path.join(__dirname, "../public/index.html")}`
+                    `file://${path.join(__dirname, "../public/game.html")}`
                   )
                 },
               },
+              {
+                label: "Equipes",
+                click: async () => {
+                  await win.loadURL(
+                    `file://${path.join(__dirname, "../public/team.html")}`
+                  )
+                },
+              },
+              {
+                label: "Gestion de parties",
+                click: async () => {
+                  await win.loadURL(
+                    `file://${path.join(__dirname, "../public/gestionGame.html")}`
+                  )
+                },
+              },
+              
             ],
           },
       ]
