@@ -48,7 +48,7 @@ button,
 
 .start img {
   width: 22vw;
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 .heroVid {
@@ -64,7 +64,6 @@ button,
 .login {
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
-  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,7 +81,7 @@ button,
   padding-bottom: 0.5em;
   color: white;
   border: none;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   font-family: inherit;
   background-color: transparent;
   font-size: 1em;
@@ -111,10 +110,10 @@ button,
 .login button {
   margin-top: 2em;
   padding: 0.7em 0 0.7em 0;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   text-align: left;
   background-color: transparent;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   text-transform: uppercase;
 }
@@ -122,6 +121,11 @@ button,
 .login button:hover {
   background-color: #394b63;
   border-color: #394b63;
+  cursor: pointer;
+}
+
+.login button:focus {
+  outline: none;
 }
 
 .login .forgotten {
@@ -136,5 +140,9 @@ button,
 
 .login .forgotten a:hover {
   color: white;
+}
+
+.login .forgotten a:focus {
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */
