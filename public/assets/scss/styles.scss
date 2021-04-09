@@ -29,7 +29,6 @@ button,
     font-family: "Raleway", sans-serif;
 }
 
-
 .start {
     display: flex;
     flex-direction: column;
@@ -39,7 +38,7 @@ button,
     background-color: rgba(0, 0, 0, 0.5);
     img {
         width: 22vw;
-        opacity: 0.75;
+        opacity: 0.7;
     }
 }
 
@@ -55,7 +54,6 @@ button,
 
 .login {
     margin-block-start: 1em;
-    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +62,7 @@ button,
         padding-bottom: 0.5em;
         color: white;
         border: none;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         font-family: inherit;
         background-color: transparent;
         font-size: 1em;
@@ -79,16 +77,21 @@ button,
     button {
         margin-top: 2em;
         padding: 0.7em 0 0.7em 0;
-        border: 1px solid white;
+        border: 1px solid rgba(255, 255, 255, 0.5);
         text-align: left;
         background-color: transparent;
-        color: #fff;
+        color: rgba(255, 255, 255, 0.5);
+        ;
         text-align: center;
         text-transform: uppercase;
         &:hover {
             // color: rgba(255, 255, 255, 0.5);
             background-color: rgb(57, 75, 99);
             border-color: rgb(57, 75, 99);
+            cursor: pointer;
+        }
+        &:focus {
+            outline: none;
         }
     }
     .forgotten {
@@ -99,6 +102,9 @@ button,
             text-decoration: none;
             &:hover {
                 color: white;
+            }
+            &:focus {
+                outline: none;
             }
         }
     }
