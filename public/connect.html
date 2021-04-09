@@ -8,8 +8,25 @@
     <title>Escape Admin</title>
   </head>
   <body>
-    <main>
+    <main class="start">
+      <video [muted]="'muted'" autoplay loop class="heroVid">
+        <source
+          src="./assets/video/Thin_Smoke_77___4K_res.mp4"
+          type="video/mp4"
+        />
+      </video>
       <img src="../public/assets/img/viruscape_logo.svg" alt="" />
+
+      <form class="login" action="" method="post" name="login">
+        <input type="text" name="username" placeholder="Utilisateur" />
+        <input type="password" name="password" placeholder="Mot de passe" />
+        <button type="submit" value="Connexion " name="submit">
+          Connexion
+        </button>
+        <p class="forgotten">
+          <a href="">Mot de passe oublié ?</a>
+        </p>
+      </form>
     </main>
   </body>
 </html>
